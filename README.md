@@ -42,7 +42,7 @@ A comprehensive volunteer management platform built with React.js frontend and F
 1. **Clone the repository**
    ```bash
    git clone https://github.com/codewithayuu/seva-setu
-   cd sevatsetu
+   cd seva-setu
    ```
 
 2. **Backend Setup**
