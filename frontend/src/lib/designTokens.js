@@ -1,0 +1,86 @@
+export const colors = {
+  primaryGradient: 'from-purple-600 to-pink-600',
+  secondaryGradient: 'from-blue-500 to-purple-600',
+  accentGradient: 'from-pink-500 to-purple-600',
+  successGradient: 'from-green-500 to-emerald-600',
+  warningGradient: 'from-yellow-500 to-orange-600',
+  dangerGradient: 'from-red-500 to-pink-600',
+  glassLight: 'bg-white/10 backdrop-blur-xl border-white/20',
+  glassStrong: 'bg-white/20 backdrop-blur-xl border-white/30',
+  glassDark: 'bg-black/20 backdrop-blur-xl border-white/10',
+  primary: 'purple-600',
+  secondary: 'blue-600',
+  success: 'green-600',
+  warning: 'yellow-600',
+  danger: 'red-600',
+  info: 'blue-500',
+};
+export const spacing = {
+  xs: '1',      
+  sm: '2',      
+  md: '4',      
+  lg: '6',      
+  xl: '8',      
+  '2xl': '12',  
+  '3xl': '16',  
+  '4xl': '24',  
+};
+export const radius = {
+  sm: 'rounded-lg',
+  md: 'rounded-xl',
+  lg: 'rounded-2xl',
+  full: 'rounded-full',
+  card: 'rounded-xl',
+  button: 'rounded-full',
+  input: 'rounded-xl',
+};
+export const shadows = {
+  sm: 'shadow-sm',
+  md: 'shadow-lg',
+  lg: 'shadow-2xl',
+  card: 'shadow-lg hover:shadow-2xl',
+  button: 'shadow-md hover:shadow-lg',
+};
+export const typography = {
+  xs: 'text-xs',
+  sm: 'text-sm',
+  base: 'text-base',
+  lg: 'text-lg',
+  xl: 'text-xl',
+  '2xl': 'text-2xl',
+  '3xl': 'text-3xl',
+  '4xl': 'text-4xl',
+  normal: 'font-normal',
+  medium: 'font-medium',
+  semibold: 'font-semibold',
+  bold: 'font-bold',
+  h1: 'text-4xl font-bold',
+  h2: 'text-3xl font-bold',
+  h3: 'text-2xl font-semibold',
+  h4: 'text-xl font-semibold',
+  h5: 'text-lg font-semibold',
+  h6: 'text-base font-semibold',
+};
+export const duration = {
+  fast: 150,
+  normal: 300,
+  slow: 600,
+  slower: 1000,
+};
+export const breakpoints = {
+  sm: '640px',
+  md: '768px',
+  lg: '1024px',
+  xl: '1280px',
+  '2xl': '1536px',
+};
+export const zIndex = {
+  base: 0,
+  dropdown: 10,
+  sticky: 20,
+  fixed: 30,
+  modalBackdrop: 40,
+  modal: 50,
+  popover: 60,
+  tooltip: 70,
+};
